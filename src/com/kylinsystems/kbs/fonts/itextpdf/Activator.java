@@ -21,12 +21,12 @@ import java.net.URL;
 import java.util.Enumeration;
 import java.util.logging.Level;
 
-import org.adempiere.plugin.utils.AdempiereActivator;
+import org.adempiere.plugin.utils.Version2PackActivator;
 
-public class Activator extends AdempiereActivator {
+public class Activator extends Version2PackActivator {
 
 	@Override
-	protected void install() {
+	protected void afterPackIn() {
 		// list all fonts files (ttf version)
 		Enumeration<URL> urls = context.getBundle().findEntries("/META-INF/fonts", "*.ttf", false);
 		if (urls == null)
