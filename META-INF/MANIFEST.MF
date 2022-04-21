@@ -2,9 +2,9 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: KBS Fonts for itextpdf
 Bundle-SymbolicName: com.kylinsystems.kbs.fonts.itextpdf;singleton:=true
-Bundle-Version: 8.2.0.qualifier
+Bundle-Version: 10.0.0.qualifier
 Bundle-Activator: com.kylinsystems.kbs.fonts.itextpdf.Activator
-Bundle-Vendor: KSYS <ken.longnan@gmail.com>
+Bundle-Vendor: Ken Longnan <ken.longnan@gmail.com>
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.adempiere.base;bundle-version="0.0.0",
  org.adempiere.plugin.utils;bundle-version="0.0.0"
